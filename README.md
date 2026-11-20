@@ -4,11 +4,13 @@ Asisten AI Python dengan memori SQLite lokal, percakapan CLI, tool web/memori, d
 
 ## Instalasi
 
-Python 3.10+ diperlukan. Linux/macOS/WSL:
+Python 3.10+ diperlukan. Kali Linux/Linux/macOS/WSL:
 
 ```bash
 ./install.sh
 ```
+
+Jika muncul `Permission denied`, jalankan `bash install.sh`. Jika venv belum tersedia di Kali, pasang `python3-venv` dengan `sudo apt install python3-venv`.
 
 Lalu edit `.env`, isi `REXA_API_KEY` dengan API key milikmu. Jalankan:
 
